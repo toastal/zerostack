@@ -15,6 +15,13 @@
       "output_price": 50
     },
     {
+      "id": "claude-fable-5-2",
+      "name": "Claude Fable 5.2",
+      "context": 1000000,
+      "input_price": 8,
+      "output_price": 40
+    },
+    {
       "id": "claude-haiku-4-5",
       "name": "Claude Haiku 4.5 (latest)",
       "context": 200000,
@@ -122,27 +129,6 @@
   ],
   "openai": [
     {
-      "id": "gpt-3.5-turbo",
-      "name": "GPT-3.5-turbo",
-      "context": 16385,
-      "input_price": 0.5,
-      "output_price": 1.5
-    },
-    {
-      "id": "gpt-4",
-      "name": "GPT-4",
-      "context": 8192,
-      "input_price": 30,
-      "output_price": 60
-    },
-    {
-      "id": "gpt-4-turbo",
-      "name": "GPT-4 Turbo",
-      "context": 128000,
-      "input_price": 10,
-      "output_price": 30
-    },
-    {
       "id": "gpt-4.1",
       "name": "GPT-4.1",
       "context": 1047576,
@@ -157,25 +143,11 @@
       "output_price": 1.6
     },
     {
-      "id": "gpt-4.1-nano",
-      "name": "GPT-4.1 nano",
-      "context": 1047576,
-      "input_price": 0.1,
-      "output_price": 0.4
-    },
-    {
       "id": "gpt-4o",
       "name": "GPT-4o",
       "context": 128000,
       "input_price": 2.5,
       "output_price": 10
-    },
-    {
-      "id": "gpt-4o-2024-05-13",
-      "name": "GPT-4o (2024-05-13)",
-      "context": 128000,
-      "input_price": 5,
-      "output_price": 15
     },
     {
       "id": "gpt-4o-2024-08-06",
@@ -251,13 +223,6 @@
       "id": "gpt-5.3-codex",
       "name": "GPT-5.3 Codex",
       "context": 400000,
-      "input_price": 1.75,
-      "output_price": 14
-    },
-    {
-      "id": "gpt-5.3-codex-spark",
-      "name": "GPT-5.3 Codex Spark",
-      "context": 128000,
       "input_price": 1.75,
       "output_price": 14
     },
@@ -367,6 +332,20 @@
       "output_price": 5
     },
     {
+      "id": "gpt-6.2-astra",
+      "name": "GPT-6.2 Astra",
+      "context": 1050000,
+      "input_price": 8,
+      "output_price": 40
+    },
+    {
+      "id": "gpt-6.2-sol",
+      "name": "GPT-6.2 Sol",
+      "context": 1050000,
+      "input_price": 2,
+      "output_price": 10
+    },
+    {
       "id": "gpt-daybreak-blue-latest",
       "name": "Daybreak Blue",
       "context": 1050000,
@@ -381,20 +360,6 @@
       "output_price": 75
     },
     {
-      "id": "o1",
-      "name": "o1",
-      "context": 200000,
-      "input_price": 15,
-      "output_price": 60
-    },
-    {
-      "id": "o1-pro",
-      "name": "o1-pro",
-      "context": 200000,
-      "input_price": 150,
-      "output_price": 600
-    },
-    {
       "id": "o3",
       "name": "o3",
       "context": 200000,
@@ -402,48 +367,27 @@
       "output_price": 8
     },
     {
-      "id": "o3-mini",
-      "name": "o3-mini",
-      "context": 200000,
-      "input_price": 1.1,
-      "output_price": 4.4
-    },
-    {
       "id": "o3-pro",
       "name": "o3-pro",
       "context": 200000,
       "input_price": 20,
       "output_price": 80
-    },
-    {
-      "id": "o4-mini",
-      "name": "o4-mini",
-      "context": 200000,
-      "input_price": 1.1,
-      "output_price": 4.4
     }
   ],
   "gemini": [
     {
       "id": "deep-research-max-preview-04-2026",
       "name": "Deep Research Max Preview (Apr-21-2026)",
-      "context": 131072,
+      "context": 1048576,
       "input_price": 2,
       "output_price": 12
     },
     {
       "id": "deep-research-preview-04-2026",
       "name": "Deep Research Preview (Apr-21-2026)",
-      "context": 131072,
+      "context": 1048576,
       "input_price": 2,
       "output_price": 12
-    },
-    {
-      "id": "gemini-2.5-computer-use-preview-10-2025",
-      "name": "Gemini 2.5 Computer Use Preview 10-2025",
-      "context": 128000,
-      "input_price": 1.25,
-      "output_price": 10
     },
     {
       "id": "gemini-2.5-flash",
@@ -457,7 +401,7 @@
       "name": "Nano Banana",
       "context": 32768,
       "input_price": 0.3,
-      "output_price": 30
+      "output_price": 2.5
     },
     {
       "id": "gemini-2.5-flash-lite",
@@ -485,14 +429,14 @@
       "name": "Nano Banana Pro",
       "context": 65536,
       "input_price": 2,
-      "output_price": 120
+      "output_price": 12
     },
     {
       "id": "gemini-3.1-flash-image",
       "name": "Nano Banana 2",
       "context": 131072,
       "input_price": 0.5,
-      "output_price": 60
+      "output_price": 3
     },
     {
       "id": "gemini-3.1-flash-lite",
@@ -505,13 +449,6 @@
       "id": "gemini-3.1-flash-lite-image",
       "name": "Nano Banana 2 Lite",
       "context": 65536,
-      "input_price": 0.25,
-      "output_price": 30
-    },
-    {
-      "id": "gemini-3.1-flash-lite-preview",
-      "name": "Gemini 3.1 Flash Lite Preview",
-      "context": 1048576,
       "input_price": 0.25,
       "output_price": 1.5
     },
@@ -586,6 +523,27 @@
       "output_price": 10
     },
     {
+      "id": "gemini-4-carbon",
+      "name": "Gemini 4 Carbon",
+      "context": 1048576,
+      "input_price": 2,
+      "output_price": 10
+    },
+    {
+      "id": "gemini-4-hydrogen",
+      "name": "Gemini 4 Hydrogen",
+      "context": 1048576,
+      "input_price": 1.5,
+      "output_price": 7.5
+    },
+    {
+      "id": "gemini-4-neon",
+      "name": "Gemini 4 Neon",
+      "context": 1048576,
+      "input_price": 3,
+      "output_price": 15
+    },
+    {
       "id": "gemini-flash-latest",
       "name": "Gemini Flash Latest",
       "context": 1048576,
@@ -610,15 +568,15 @@
       "id": "gemma-4-26b-a4b-it",
       "name": "Gemma 4 26B A4B IT",
       "context": 262144,
-      "input_price": null,
-      "output_price": null
+      "input_price": 0,
+      "output_price": 0
     },
     {
       "id": "gemma-4-31b-it",
       "name": "Gemma 4 31B IT",
       "context": 262144,
-      "input_price": null,
-      "output_price": null
+      "input_price": 0,
+      "output_price": 0
     },
     {
       "id": "lyria-3-clip-preview",
@@ -644,6 +602,11 @@
     {
       "id": "anthropic/claude-fable-5.1",
       "name": "Claude Fable 5.1",
+      "context": 1000000
+    },
+    {
+      "id": "anthropic/claude-fable-5.2",
+      "name": "Claude Fable 5.2",
       "context": 1000000
     },
     {
@@ -887,9 +850,34 @@
       "context": 1048576
     },
     {
+      "id": "google/gemini-4-carbon",
+      "name": "Gemini 4 Carbon",
+      "context": 1048576
+    },
+    {
+      "id": "google/gemini-4-hydrogen",
+      "name": "Gemini 4 Hydrogen",
+      "context": 1048576
+    },
+    {
+      "id": "google/gemini-4-neon",
+      "name": "Gemini 4 Neon",
+      "context": 1048576
+    },
+    {
       "id": "google/gemini-nano-banana-2.1",
       "name": "Nano Banana 2.1",
       "context": 65536
+    },
+    {
+      "id": "google/gemini-omni-1.1-flash",
+      "name": "Gemini Omni 1.1 Flash",
+      "context": 131072
+    },
+    {
+      "id": "google/gemini-omni-1.2-flash",
+      "name": "Gemini Omni 1.2 Flash",
+      "context": 131072
     },
     {
       "id": "google/gemma-2-27b-it",
@@ -950,11 +938,6 @@
       "id": "meta-llama/llama-3.1-8b-instruct",
       "name": "Llama-3.1-8B-Instruct",
       "context": 131072
-    },
-    {
-      "id": "meta-llama/llama-3.2-1b-instruct",
-      "name": "Llama 3.2 1B Instruct",
-      "context": 60000
     },
     {
       "id": "meta-llama/llama-3.2-3b-instruct",
@@ -1075,6 +1058,11 @@
       "id": "mistralai/mixtral-8x22b-instruct",
       "name": "Mixtral 8x22B Instruct",
       "context": 65536
+    },
+    {
+      "id": "mistralai/pixtral-large-2502",
+      "name": "Pixtral Large (25.02)",
+      "context": 128000
     },
     {
       "id": "mistralai/voxtral-small-24b-2507",
@@ -1367,6 +1355,26 @@
       "context": 1050000
     },
     {
+      "id": "openai/gpt-6.2-astra",
+      "name": "GPT-6.2 Astra",
+      "context": 1050000
+    },
+    {
+      "id": "openai/gpt-6.2-astra-pro",
+      "name": "GPT-6.2 Astra Pro",
+      "context": 1050000
+    },
+    {
+      "id": "openai/gpt-6.2-sol",
+      "name": "GPT-6.2 Sol",
+      "context": 1050000
+    },
+    {
+      "id": "openai/gpt-6.2-sol-pro",
+      "name": "GPT-6.2 Sol Pro",
+      "context": 1050000
+    },
+    {
       "id": "openai/gpt-chat-latest",
       "name": "GPT Chat Latest",
       "context": 400000
@@ -1399,11 +1407,6 @@
     {
       "id": "qwen/qwen-2.5-72b-instruct",
       "name": "Qwen2.5 72B Instruct",
-      "context": 32768
-    },
-    {
-      "id": "qwen/qwen-2.5-7b-instruct",
-      "name": "Qwen2.5 7B Instruct",
       "context": 32768
     },
     {
@@ -1484,11 +1487,6 @@
     {
       "id": "qwen/qwen3-vl-30b-a3b-instruct",
       "name": "Qwen3 VL 30B A3B Instruct",
-      "context": 262144
-    },
-    {
-      "id": "qwen/qwen3-vl-30b-a3b-thinking",
-      "name": "Qwen3 VL 30B A3B Thinking",
       "context": 262144
     },
     {
@@ -1602,6 +1600,11 @@
       "context": 1000000
     },
     {
+      "id": "qwen/qwen4-max",
+      "name": "Qwen4 Max",
+      "context": 1000000
+    },
+    {
       "id": "x-ai/grok-4.20",
       "name": "Grok 4.20",
       "context": 2000000
@@ -1630,11 +1633,6 @@
       "id": "x-ai/grok-4.7",
       "name": "Grok 4.7",
       "context": 500000
-    },
-    {
-      "id": "x-ai/grok-build-0.1",
-      "name": "Grok Build 0.1",
-      "context": 256000
     },
     {
       "id": "z-ai/glm-4.5",
@@ -1739,24 +1737,17 @@
     },
     {
       "id": "deepseek-v4-pro",
-      "name": "DeepSeek V4 Pro (New)",
+      "name": "DeepSeek V4 Pro",
       "context": 1000000,
       "input_price": 0.66,
       "output_price": 1.98
     },
     {
       "id": "deepseek-v4.1-flash",
-      "name": "DeepSeek V4.1 Flash",
+      "name": "DeepSeek V4.1 Flash 1017",
       "context": 1000000,
       "input_price": 0.15,
       "output_price": 0.6
-    },
-    {
-      "id": "glm-5.2",
-      "name": "GLM-5.2",
-      "context": 1000000,
-      "input_price": 1.4,
-      "output_price": 4.4
     },
     {
       "id": "glm-5.3",
@@ -1801,6 +1792,20 @@
       "output_price": 0.58
     },
     {
+      "id": "hy4",
+      "name": "Hy4",
+      "context": 1048576,
+      "input_price": 0.834,
+      "output_price": 2.501
+    },
+    {
+      "id": "hy4-flash-free",
+      "name": "Hy4 flash Free",
+      "context": 1048576,
+      "input_price": 0,
+      "output_price": 0
+    },
+    {
       "id": "hy4-preview",
       "name": "Hy4 preview",
       "context": 1024000,
@@ -1836,8 +1841,8 @@
       "output_price": 10
     },
     {
-      "id": "longcat-2.0",
-      "name": "LongCat-2.0",
+      "id": "longcat-2.5",
+      "name": "LongCat-2.5",
       "context": 1000000,
       "input_price": 0.3,
       "output_price": 1.2
@@ -1920,6 +1925,13 @@
       "output_price": 6
     },
     {
+      "id": "qwen4-max",
+      "name": "Qwen4 Max",
+      "context": 1000000,
+      "input_price": 1.5,
+      "output_price": 4.5
+    },
+    {
       "id": "step-5-preview",
       "name": "Step 5 Preview",
       "context": 1000000,
@@ -1955,6 +1967,13 @@
       "context": 1000000,
       "input_price": 10,
       "output_price": 50
+    },
+    {
+      "id": "claude-fable-5-2",
+      "name": "Claude Fable 5.2",
+      "context": 1000000,
+      "input_price": 8,
+      "output_price": 40
     },
     {
       "id": "claude-haiku-4-5",
@@ -2049,10 +2068,10 @@
     },
     {
       "id": "deepseek-v4.1-flash",
-      "name": "DeepSeek V4.1 Flash",
+      "name": "DeepSeek V4.1 Flash 1017",
       "context": 1000000,
-      "input_price": 0.3,
-      "output_price": 1.2
+      "input_price": 0.12,
+      "output_price": 0.48
     },
     {
       "id": "deepseek-v4.1-flash-free",
@@ -2069,32 +2088,11 @@
       "output_price": 0
     },
     {
-      "id": "glm-5",
-      "name": "GLM-5",
-      "context": 204800,
-      "input_price": 1,
-      "output_price": 3.2
-    },
-    {
-      "id": "glm-5.1",
-      "name": "GLM-5.1",
-      "context": 204800,
-      "input_price": 1.4,
-      "output_price": 4.4
-    },
-    {
-      "id": "glm-5.2",
-      "name": "GLM-5.2",
-      "context": 1000000,
-      "input_price": 1.4,
-      "output_price": 4.4
-    },
-    {
       "id": "glm-5.3",
       "name": "GLM-5.3",
       "context": 1000000,
-      "input_price": 1.4,
-      "output_price": 4.4
+      "input_price": 0.56,
+      "output_price": 1.76
     },
     {
       "id": "glm-5.3-flash",
@@ -2102,13 +2100,6 @@
       "context": 1000000,
       "input_price": 0.15,
       "output_price": 0.5
-    },
-    {
-      "id": "glm-5.3-flash-free",
-      "name": "GLM-5.3-Flash Free",
-      "context": 200000,
-      "input_price": 0,
-      "output_price": 0
     },
     {
       "id": "gpt-5",
@@ -2279,6 +2270,20 @@
       "output_price": 10
     },
     {
+      "id": "gpt-6.2-astra",
+      "name": "GPT-6.2 Astra",
+      "context": 1050000,
+      "input_price": 8,
+      "output_price": 40
+    },
+    {
+      "id": "gpt-6.2-sol",
+      "name": "GPT-6.2 Sol",
+      "context": 1050000,
+      "input_price": 2,
+      "output_price": 10
+    },
+    {
       "id": "grok-4.5",
       "name": "Grok 4.5",
       "context": 500000,
@@ -2305,6 +2310,20 @@
       "context": 256000,
       "input_price": 1,
       "output_price": 2
+    },
+    {
+      "id": "hy4-flash-free",
+      "name": "Hy4 flash Free",
+      "context": 1048576,
+      "input_price": 0,
+      "output_price": 0
+    },
+    {
+      "id": "iceman-free",
+      "name": "Iceman Free",
+      "context": 262144,
+      "input_price": 0,
+      "output_price": 0
     },
     {
       "id": "kimi-k2.5",
@@ -2370,6 +2389,13 @@
       "output_price": 2.09
     },
     {
+      "id": "muse-ember-1.0",
+      "name": "Muse Ember 1.0",
+      "context": 1048576,
+      "input_price": 0.1,
+      "output_price": 0.5
+    },
+    {
       "id": "muse-spark-1.2",
       "name": "Muse Spark 1.2",
       "context": 1048576,
@@ -2431,6 +2457,13 @@
       "context": 262144,
       "input_price": 2,
       "output_price": 6
+    },
+    {
+      "id": "tidepool-alpha-free",
+      "name": "Tidepool Alpha Free",
+      "context": 1048576,
+      "input_price": 0,
+      "output_price": 0
     }
   ]
 }
